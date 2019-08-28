@@ -13,6 +13,7 @@ namespace OWASP.WebGoat.NET
 
         public CustomerLoginData(string email, string password, bool isLoggedIn)
         {
+            //This takes user input
             this.email = email;
             this.password = password;
             this.isLoggedIn = isLoggedIn;
